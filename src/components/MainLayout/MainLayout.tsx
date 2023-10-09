@@ -5,6 +5,13 @@ import Container from "@mui/material/Container";
 import Header from "~/components/MainLayout/components/Header";
 import Box from "@mui/material/Box";
 
+const styles = {
+  mainContainer: {
+    backgroundImage: `url(${"/back.jpg"})`,
+    backgroundSize: "cover",
+  },
+};
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -22,7 +29,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <>
       <Header />
-      <main>
+      <main style={styles.mainContainer}>
         <Container sx={{ pb: 8 }} maxWidth="md">
           {children}
         </Container>

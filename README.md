@@ -1,5 +1,10 @@
 # React-shop-cloudfront
 
+##Homework
+
+link to S3 http://my-first-rs-app-mentoring-1.s3-website-eu-west-1.amazonaws.com/
+link to SPA via CloudFront https://dzt8ahvosxm8i.cloudfront.net/
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
